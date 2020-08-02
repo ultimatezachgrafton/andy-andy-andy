@@ -16,10 +16,10 @@ function run() {
 }
 
 function computerTurn() {
-    var random = Math.random();
-  if (random <= 0.33) {
+  var random = Math.floor(Math.random() * 3);
+  if (random === 0) {
       computerChoice = "Slack Andy";
-  } else if (random > 0.33 && random <= 0.66) {
+  } else if (random === 1) {
       computerChoice = "Github Andy";
   } else {
       computerChoice = "Quarantine Andy";
