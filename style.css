@@ -1,37 +1,82 @@
 * { 
     padding: 0; 
-    margin: 0; }
+    margin: 0; 
+}
     
 body { 
     background: gold; 
     display: block; 
     margin: 0 auto; 
-    color: black; }
+    color: black; 
+}
+
+h1 {
+    margin:auto;
+}
+
+h2 {
+    color:black; 
+    text-align:center;
+}
     
 #header {
     display: flex;
     align-items: center;
     height:90px;
     background-color: black;
-    color: gold; }
+    color: gold; 
+}
+
+.intro-text {
+    margin:35px 0px 35px 0px; 
+    text-align:center; 
+    color: black;
+}
+
+#photos {
+    display:flex; 
+    margin-left:150px;
+}
+
+#result-display {
+    text-align: center; 
+    line-height: 40px; 
+    margin-top:25px;
+}
 
 #img-slack-andy {
+    width:350px; 
+    margin-right:50px; 
+    border-radius: 50%;
     -webkit-animation: float 6s ease-in-out infinite;
     animation: float 6s ease-in-out infinite;
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	transform: translatey(0px); }
+    transform: translatey(0px); 
+}
 
 #img-github-andy {
+    width:350px; 
+    margin-right:50px; 
+    border-radius: 50%;
     -webkit-animation: float 4s ease-in-out infinite;
     animation: float 4s ease-in-out infinite;
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    transform: translatey(0px); }
+    transform: translatey(0px); 
+}
 
 #img-quarantine-andy {
+    width:350px; 
+    height:350px; 
+    border-radius: 50%;
     -webkit-animation: float 5s ease-in-out infinite;
     animation: float 5s ease-in-out infinite;
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    transform: translatey(0px); }
+    transform: translatey(0px); 
+}
+
+.clickable:hover {
+    cursor:pointer;
+}
 
 @keyframes float {
     0% {

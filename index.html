@@ -7,41 +7,30 @@
 </head>
 <body>
   <div id="header">
-    <h1 style="margin:auto;">ANDY ANDY ANDY</h1>
+    <h1>ANDY ANDY ANDY</h1>
   </div>
-  <h1 id="andy-quote" style="margin:35px 0px 0px 0px; text-align:center; color: black;">"Nothing is more fun than playing rock-paper-scissors with a friend." - Andy Sterkowitz</h1>
-  <h1 id="choose" style="margin:35px 0px 35px 0px; text-align:center; color: black;">CHOOSE YOUR FIGHTER</h1>
+  <h1 id="andy-quote" class="intro-text">"Nothing is more fun than playing rock-paper-scissors with a friend." - Andy Sterkowitz</h1>
+  <h1 id="choose" class="intro-text">CHOOSE YOUR FIGHTER</h1>
 
-  <div id="photos" style="display:flex; margin-left:150px;">
+  <div id="photos">
     <div id="slack-andy">
-    <img id="img-slack-andy" src="images/slack-andy.png" style="width:350px; margin-right:50px; border-radius: 50%;"><h2 style="color:black; text-align:center;">Slack Andy</h2>
+    <img id="img-slack-andy" class="clickable" src="images/slack-andy.png"><h2>Slack Andy</h2>
     </div>
     <div id="github-andy">
-    <img id="img-github-andy" src="images/github-andy.jpg" style="width:350px; margin-right:50px; border-radius: 50%;"><h2 style="color:black; text-align:center;">Github Andy</h2>
+    <img id="img-github-andy" class="clickable" src="images/github-andy.jpg"><h2>Github Andy</h2>
     </div>
     <div id="quarantine-andy">
-      <img id="img-quarantine-andy" src="images/quarantine-andy.jpg" style="width:350px; height:350px; border-radius: 50%;"><h2 style="color:black; text-align:center;">Quarantine Andy</h2>
+      <img id="img-quarantine-andy" class="clickable" src="images/quarantine-andy.jpg"><h2>Quarantine Andy</h2>
     </div>
   </div>
 
-  <div id="result-display" style="text-align: center; line-height: 40px; margin-top:25px;">
+  <div id="result-display">
     <h2 id="playerAnnouncement"></h2>
     <h2 id="computerAnnouncement"></h2>
     <h1 id="result"></h1> 
   </div>
 
-<script src="dom.js"></script>
+  <script src="dom.js"></script>
 
   </body>
   </html>
-
-<!-- 1. Click an Andy, keyboard event recognizes it
-2. Computer programmatically selects an Andy at random
-3. If (playerChoice === computerchoice) {
-  result = tie;
-  } else if {
-    ...
-  }
-4. Display result.
-5. Upload pics - prob just to github 
-6. The Andys float like in the codepen example -->
